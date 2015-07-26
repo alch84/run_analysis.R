@@ -8,6 +8,8 @@ The code generates tidy data as required by the assigment.  As long as the Samsu
 1. Combines the training and test data into a single dataset
 2. Extracts the fields that relate to the mean and standard deviation measures only
 3. Renames the headings to allow for detailed descriptions
-4. Calculates the average of each field, by each of the 30 subjects, and each of the 6 activities.
+4. Replaces the activity identifiers with a description of the activity.
+5. Calculates the average of each field, by each of the 30 subjects, and each of the 6 activities.
+6. Writes the table into a text file.
 
 The output will be a text file containing the tidy dataset, saved in the working directory.
