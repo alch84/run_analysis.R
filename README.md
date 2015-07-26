@@ -3,7 +3,9 @@ This Readme document describes how the code in the repository works.  This code 
 
 The raw data consists of 563 variables in total (including subject ID and activity), and are split into training dataset (70%) and test data (30%). The tidy data required would involve combining these datasets together into a single dataset, ensuring headings are described in appropriate level of detail, and only includes the mean of each field, summarised for each of the 30 subjects and 6 activity types.   
 
-The code generates tidy data as required by the assigment.  As long as the Samsung data is in the working directory, the code when run performs the following actions:
+The code (named run_analysis.R) is in the form of a single R script that is to be run in full.
+
+The code's objective is to take the raw data provided in the working directory, and generate a tidy dataset as required by the assignment.  As long as the Samsung data folder (named "UCI HAR dataset") exists in the working directory, the code when run performs the following actions:
 
 1. Combines the training and test data into a single dataset
 2. Extracts the fields that relate to the mean and standard deviation measures only
